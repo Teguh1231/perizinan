@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta charset="utf-8" />
-    <title>Webarch - Responsive Admin Dashboard</title>
+    <title>Aplikasi Perizinan </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta content="" name="description" />
     <meta content="" name="author" />
@@ -21,23 +21,20 @@
   </head>
   <!-- END HEAD -->
   <!-- BEGIN BODY -->
-  
   <body class="error-body no-top">
     <div class="container">
       <div class="row login-container column-seperation">
         <div class="col-md-5 col-md-offset-1">
           <h2>
-        Sign in to webarch
+        Login Aplikasi Perizinan
       </h2>
           <p>
-            Use Facebook, Twitter or your email to sign in.
+            Aplikasi ini digunakan untuk dispensasi siswa/i SMKN 1 KRAGILAN
             <br>
-            <a href="#">Sign up Now!</a> for a webarch account,It's free and always will be..
           </p>
           <br>
-          <button class="btn btn-block btn-info col-md-8" type="button"><span class="pull-left icon-facebook" style="font-style: italic"></span> <span class="bold">Login with Facebook</span></button>
-          <button class="btn btn-block btn-success col-md-8" type="button"><span class="pull-left icon-twitter" style="font-style: italic"></span>
-            <span class="bold">Login with Twitter</span></button>
+          <button class="btn btn-block btn-info col-md-8" type="button"><span class="pull-left icon-facebook" style="font-style: italic"></span> <span class="bold">Login with Google</span></button>
+          
         </div>
         <div class="col-md-5">
           <br>
@@ -56,11 +53,11 @@
             </div>
             <div class="row">
               <div class="control-group col-md-10">
-                <div class="checkbox checkbox check-success">
+                <!-- <div class="checkbox checkbox check-success">
                   <a href="#">Trouble login in?</a>&nbsp;&nbsp;
                   <input id="checkbox1" type="checkbox" value="1">
                   <label for="checkbox1">Keep me reminded</label>
-                </div>
+                </div> -->
               </div>
             </div>
             <div class="row">

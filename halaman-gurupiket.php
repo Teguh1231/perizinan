@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta charset="utf-8" />
-    <title>Webarch - Responsive Admin Dashboard</title>
+    <title>Aplikasi Perizinan</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta content="" name="description" />
     <meta content="" name="author" />
@@ -42,7 +42,7 @@
           </ul>
           <!-- BEGIN LOGO -->
           <a href="index.html">
-            <h3 class="logo">Dispensasi Siswa</h3>
+            <h3 class="logo">SMKN 1 KRAGILAN</h3>
           </a>
           <!-- END LOGO -->
         </div>
@@ -81,13 +81,16 @@
           </div>
           <!-- END MINI-PROFILE -->
           <!-- BEGIN SIDEBAR MENU -->
-          <p class="menu-title sm">BROWSE <span class="pull-right"></p>
+          <p class="menu-title sm"><span class="pull-right"></p>
           <ul>
             <li class="active">
               <a href="charts.html"> <i class="material-icons">view_stream</i> <span class="title">Dispensasi Siswa</span> </a>
             </li>
             <li class="">
-              <a href="charts.html"> <i class="material-icons">playlist_add_check</i> <span class="title">Riwayat Dispensasi</span> </a>
+              <a href="charts.html"> <i class="material-icons">playlist_add_check</i> <span class="title">Data DiSetujui</span> </a>
+            </li>
+            <li class="">
+              <a href="charts.html"> <i class="material-icons">playlist_add_no</i> <span class="title">Data Ditolak</span> </a>
             </li>
             <li class="">
               <a href="charts.html"> <i class="material-icons">power_settings_new</i> <span class="title">Log Out</span> </a>
@@ -105,15 +108,15 @@
         <div class="content">
           <ul class="breadcrumb">
             <li>
-              <p>YOU ARE HERE</p>
+              <p>Tabel</p>
             </li>
-            <li><a href="#" class="active">Data Pengajuan</a> </li>
+            <li><a href="#" class="active">Dispensasi Siswa</a> </li>
           </ul>
           <div class="row-fluid">
             <div class="span12">
               <div class="grid simple ">
                 <div class="grid-title">
-                  <h4>Table <span class="semi-bold">Styles</span></h4>
+                  <h4>Table <span class="semi-bold"></span></h4>
                 </div>
                 <div class="grid-body ">
                   <table class="table table-hover table-condensed" id="example">
@@ -122,35 +125,35 @@
                         <th style="width:1%" data-hide="phone">No</th>
                         <th style="width:10%">Nama Siswa</th>
                         <th style="width:6%" data-hide="phone">NISN</th>
-                        <th style="width:6%" data-hide="phone">Jueusan</th>
-                        <th style="width:5%" data-hide="phone">Dari Jam Ke</th>
-                        <th style="width:5%"data-hide="phone">Sampai Jam Ke</th>
+                        <th style="width:6%" data-hide="phone">Jurusan</th>
+                        <th style="width:7%" data-hide="phone">Dari Jam Ke</th>
+                        <th style="width:9%"data-hide="phone">Sampai Jam Ke</th>
                         <th style="width:22%">Alasan</th>
                         <th style="width:10%">Aksi</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td class="v-align-middle">1</td>
-                        <td class="v-align-middle">Early Bird</td>
+                        <td class="v-align-middle">2</td>
+                        <td class="v-align-middle">Nia Feblita</td>
                         <td class="v-align-middle">239413956</td>
                         <td class="v-align-middle"><span class="muted">TKJ</span></td>
                         <td class="v-align-middle">1</td>
-                        <td class="v-align-middle">1</td>
-                        <td class="v-align-middle">Lorem ipsum dolor sit amet.</td>
+                        <td class="v-align-middle">4</td>
+                        <td class="v-align-middle">Kegiatan Ekstrakulikuler Paskibra</td>
                         <td>
                           <a href="#" class="btn btn-primary btn-xs btn-mini">Setujui</a>
                           <a href="#" class="btn btn-danger btn-xs btn-mini">Tolak</a>
                         </td>
                       </tr>
                       <tr>
-                        <td class="v-align-middle">2</td>
-                        <td class="v-align-middle">Early Bird</td>
-                        <td class="v-align-middle">239413956</td>
-                        <td class="v-align-middle"><span class="muted">TKJ</span></td>
                         <td class="v-align-middle">1</td>
+                        <td class="v-align-middle">Komarudin</td>
+                        <td class="v-align-middle">23628189</td>
+                        <td class="v-align-middle"><span class="muted">Permesinan</span></td>
                         <td class="v-align-middle">1</td>
-                        <td class="v-align-middle">Lorem ipsum dolor sit amet.</td>
+                        <td class="v-align-middle">8</td>
+                        <td class="v-align-middle">Perlombaan LKS di Tingkat Provinsi Banten</td>
                         <td>
                           <a href="#" class="btn btn-primary btn-xs btn-mini">Setujui</a>
                           <a href="#" class="btn btn-danger btn-xs btn-mini">Tolak</a>

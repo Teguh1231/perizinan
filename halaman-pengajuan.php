@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta charset="utf-8" />
-    <title>Sistem Dispensasi</title>
+    <title>Aplikasi Perizinan</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta content="" name="description" />
     <meta content="" name="author" />
@@ -44,7 +44,7 @@
           </ul>
           <!-- BEGIN LOGO -->
           <a href="index.html">
-            <h3 class="logo">Dispensasi Siswa</h3>
+            <h3 class="logo">SMKN 1 KRAGILAN</h3>
           </a>
           <!-- END LOGO -->
         </div>
@@ -77,6 +77,8 @@
         <!-- BEGIN MINI-PROFILE -->
         <div class="page-sidebar-wrapper scrollbar-dynamic" id="main-menu-wrapper">
           <!-- BEGIN SIDEBAR MENU --> 
+          <br>
+          <br>
           <ul>
             <li class="active">
               <a href="charts.html"> <i class="material-icons">view_stream</i> <span class="title">Pengajuan Dispensasi</span> </a>
@@ -102,7 +104,7 @@
         <div class="content">
           <ul class="breadcrumb">
             <li>
-              <p>YOU ARE HERE</p>
+              <p>Tabel</p>
             </li>
             <li><a href="#" class="active">Form Pengajuan Dispensasi</a> </li>
           </ul>
@@ -110,15 +112,104 @@
             <div class="col-md-6">
               <div class="grid simple form-grid">
                 <div class="grid-title no-border">
-                  <h4>Nomor <span class="semi-bold">Dispensasi</span></h4>
+                  <h4>Form <span class="semi-bold">Dispensasi</span></h4>
                 </div>
                 <div class="grid-body no-border">
-                  <div class="form-group">
-                    <h3>Nomor Dispensasi Anda : <span class="semi-bold">130520130001</span></h3>
-                  </div>
-                  <div class="form-group">
-                  <a href="#" class="btn btn-primary"><i class="icon-ok"></i> Menu Cek >></a>
-                  </div>
+                  <form action="#" method="post" id="form_traditional_validation" name="form_traditional_validation" role="form" autocomplete="off" class="validate">
+                    <div class="form-group">
+                      <label class="form-label">NISN</label>
+                      <input class="form-control" id="nisn" name="nisn" type="number" required>
+                    </div>
+                    <div class="form-group">
+                      <label class="form-label">Nama Lengkap</label> 
+                      <div class="input-with-icon right">
+                        <i class=""></i>
+                        <input class="form-control" id="namasiswa name="namasiswa" type="text" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="form-label">Kelas</label> 
+                      <div class="input-with-icon right">
+                        <i class=""></i>
+                        <input class="form-control" id="kelas" name="kelas" type="text" required>
+                      </div>
+                    </div>
+                      <div class="form-group">
+                      <label class="form-label">Jurusan</label> 
+                      <div class="input-with-icon right">
+                        <i class=""></i>
+                        <input class="form-control" id="kelas" name="kelas" type="text" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="form-label">Dari Jam Ke</label> 
+                      <div class=" right">
+                        <select class="form-control select2" id="darijamke" name="darijamke" data-init-plugin="select2" required>
+                          <option value="">
+                            Pilih Jam
+                          </option>
+                          <option value="1">
+                            Jam ke 1
+                          </option>
+                          <option value="2">
+                            Jam ke 2
+                          </option>
+                          <option value="3">
+                            Jam ke 3
+                          </option>
+                          <option value="4">
+                            Jam ke 4
+                          </option>
+                          <option value="5">
+                            Jam ke 5
+                          </option>
+                          <option value="5">
+                            Jam ke 6
+                          </option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="form-label">Sampai Jam Ke</label> 
+                      <div class=" right">
+                        <select class="form-control select2" id="sampaijamke" name="sampaijamke" data-init-plugin="select2" required>
+                          <option value="">
+                            Pilih Jam
+                          </option>
+                          <option value="1">
+                            Jam ke 1
+                          </option>
+                          <option value="2">
+                            Jam ke 2
+                          </option>
+                          <option value="3">
+                            Jam ke 3
+                          </option>
+                          <option value="4">
+                            Jam ke 4
+                          </option>
+                          <option value="5">
+                            Jam ke 5
+                          </option>
+                          <option value="5">
+                            Jam ke 6
+                          </option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="form-label">Alasan</label> 
+                      <div class="input-with-icon right">
+                        <i class=""></i>
+                        <input class="form-control" id="keperluan" name="keperluan" type="text" required>
+                      </div>
+                    </div>
+                    <div class="form-actions">
+                      <div class="pull-right">
+                        <button class="btn btn-success btn-cons" type="submit"><i class="icon-ok"></i> Ajukan</button>
+                      </div>
+                    </div>
+                  </form>
                 </div>
               </div>
             </div>

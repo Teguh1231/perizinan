@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta charset="utf-8" />
-    <title>Sistem Dispensasi</title>
+    <title>Aplikasi Perizinan</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta content="" name="description" />
     <meta content="" name="author" />
@@ -44,7 +44,7 @@
           </ul>
           <!-- BEGIN LOGO -->
           <a href="index.html">
-            <h3 class="logo">Dispensasi Siswa</h3>
+            <h3 class="logo">SMKN 1 KRAGILAN</h3>
           </a>
           <!-- END LOGO -->
         </div>
@@ -102,9 +102,9 @@
         <div class="content">
           <ul class="breadcrumb">
             <li>
-              <p>YOU ARE HERE</p>
+              <p>Tabel</p>
             </li>
-            <li><a href="#" class="active">Cek Dispensasi</a> </li>
+            <li><a href="#" class="active">Form Cek Dispensasi</a> </li>
           </ul>
           <div class="row">
             <div class="col-md-6">
@@ -137,7 +137,7 @@
                     <div class="pull-center">
                       <!-- kondisikan sesuai diterima atau ditolak -->
                       <h3>Selamat Pengajuanmu diterima</h3>
-                      <h3>Maaf Pengajuanmu Ditolak</h3>
+                      
                     </div>
                   </div>
                 </div>
