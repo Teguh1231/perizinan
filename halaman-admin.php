@@ -93,9 +93,13 @@
               <a href="charts.html"> <i class="material-icons">playlist_add_check</i> <span class="title">Data Riwayat Dispensasi</span> </a>
             </li>
             <li class="">
+              <a href="charts.html"> <i class="material-icons">apps</i> <span class="title">Laporan</span> </a>
+            </li>
+            <li class="">
               <a href="charts.html"> <i class="material-icons">power_settings_new</i> <span class="title">Log Out</span> </a>
             </li>
           </ul> 
+          
           <div class="clearfix"></div>
           <!-- END SIDEBAR MENU -->
         </div>
